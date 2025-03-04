@@ -1,0 +1,21 @@
+
+.category
+{
+    width: 100%;
+    background-color: #060707;
+    padding: 10px 2%;
+     
+    /* color: aliceblue;
+    font-weight: bold; */
+}
+.shows
+{
+    width: 100%;
+    /* background-color: red; */
+    /* height: 400px; */
+    padding: 10px 2px;
+    display: flex;
+    column-gap: 10px;
+   
+}
+

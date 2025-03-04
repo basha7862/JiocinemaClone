@@ -1,0 +1,23 @@
+.text
+{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #060707;
+    color: bisque;
+    padding: 14px 0px 2px 10px;
+}
+.channel{
+    width: 100%;
+    display: flex;
+    background-color: #060707;
+    padding: 30px 2%;
+    column-gap: 10px;
+}
+.channel >img{
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+/* .channel >img:only-child{
+    background-color: rgb(247, 12, 12);
+} */

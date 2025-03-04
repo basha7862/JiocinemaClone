@@ -1,0 +1,32 @@
+
+.Footer
+{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(29, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 80px 40px 10px ;
+}
+.Box1
+{
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+}
+.Box1>li{
+    
+    font-weight: bolder;
+}
+.Box2
+{
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+}
+.Box2>li{
+    
+    font-weight: bolder;
+}
