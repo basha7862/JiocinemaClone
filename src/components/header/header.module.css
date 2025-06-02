@@ -1,0 +1,150 @@
+.mainContent{
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    /* background-color:red; */
+    background-color: #060707;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-bottom:1px solid #484d4d;
+    position: fixed;
+    z-index: 999;
+    
+}
+.Navigation{
+    width: fit-content;
+    height: 70px;
+    /* background-color: blueviolet; */
+    column-gap: 30px;
+    display: flex;
+}
+.logo
+{
+    /* background-color: gray; */
+    width: fit-content;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.premium{
+    width: fit-content;
+    border: 2px solid gold;
+    padding: 5px 20px ;
+    border-radius: 10px;
+    color: gold;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+
+}
+.Navlinks
+{   
+    width: fit-content;
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+.navlinks
+{
+    padding: 21px 0px ;
+    /* border-bottom: 2px solid palevioletred; */
+}
+/* .navlinks:first-child()
+{
+    border-bottom: rgb(220, 14, 83);
+} */
+.Mainsearch
+{
+    width: fit-content;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+.SearchBox{
+    width: fit-content;
+    height: 40px;
+    /* background-color: rgb(131, 226, 43); */
+    background-color:#1e1f20;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    column-gap: 10px;
+    padding: 0px 15px;
+    
+
+
+}
+.icon
+{
+    height: 40px;
+    width: 40px;
+    background-color: #1e1f20;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search
+{ 
+   height:25px ;
+   width: 200px;
+   background-color: #1e1f20;
+   font-weight: bold;
+   color: white;
+   border: none;
+   outline: none;
+}
+.usericon
+{
+    height: 40px;
+    background-color: white;
+    border-radius: 19px;
+}
+
+.SearchResult
+{
+    width: 100%;
+    height: fit-content;
+    height: calc(100vh - 70px);
+    background-color: rgba(79, 202, 202, 0.8);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    /* column-gap: 20px; */
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 2%;
+    overflow-y: auto;
+    overflow-x: hidden;  
+    top: 140px;
+    min-width: 100vw;
+
+    
+    
+    /* width: max-content;   */
+}
+.overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9); 
+    z-index: 9;
+
+
+}
+.Movie {
+    width: 200px; 
+    height: 300px;
+    object-fit: cover;
+}

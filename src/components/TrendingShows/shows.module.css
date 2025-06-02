@@ -1,0 +1,37 @@
+
+.featureshows{
+    width: 25%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+} 
+.featureshows >img
+{
+    width: 100%;
+    height: 500px;
+    position: absolute;   
+} 
+
+.MovieTitle
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(6, 7, 7,.5);
+    position: absolute;
+    align-self: flex-end;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    color: rgb(202, 232, 51);
+}
+.MovieTitle:hover
+{
+    height: 200px;
+}
